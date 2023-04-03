@@ -19,7 +19,7 @@ source env/bin/activate
 
 Then, install the requirements and start the server:
 
-pip install -r requirements.txt
+pip install -r requirements.txt <br/>
 python -m uvicorn main:app --reload
 
 Make sure you are connected to a MongoDB database and use "blog_collection" as a collection.
